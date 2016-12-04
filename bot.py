@@ -1,9 +1,9 @@
-import sys
+import os
 import telepot
 import re
 
-TOKEN = sys.argv[1]
-AUTHOR = sys.argv[2]
+TOKEN = os.environ['TOKEN']
+AUTHOR = os.environ['AUTHOR']
 REDDIT_URL = 'https://reddit.com'
 
 
